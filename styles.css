@@ -1,0 +1,225 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	font-family: Gotham Rounded;
+}
+
+.container {
+	width: 1300px;
+	height: 600px;
+	max-width: 80%;
+	background-color: #EBFDD2;
+	padding: 10px;
+	border-radius: 40px;
+	box-shadow: 0 0 10px 2px;
+}
+
+.container .roadmap {
+	margin-top: 40px;
+	margin-left: 10px;
+
+}
+
+.container .btn {
+  position: absolute;
+  margin-top: 344px;
+  margin-left: 67px;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 5px grey;
+  background-color: #555;
+  color: white;
+  font-size: 20px;
+  padding: 17px 17px;
+  border-radius: 40px;
+  cursor: pointer;
+  outline:none;
+  border:none;
+
+}
+
+.container .btn:hover {
+	background-color:white ;
+	cursor: pointer;
+  	transition: 0.7s;
+  	color:black;
+}
+
+.container .btn2 {
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 435px;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 5px grey;
+  background-color: #555;
+  color: white;
+  font-size: 20px;
+  padding: 17px 17px;
+  border-radius: 40px;
+  cursor: pointer;
+  outline:none;
+  border:none;
+
+}
+
+.container .btn2:hover {
+	background-color:white ;
+	cursor: pointer;
+  	transition: 0.7s;
+  	color:black;
+}
+
+.container .btn3 {
+  position: absolute;
+  margin-top: 240px;
+  margin-left: 770px;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 5px grey;
+  background-color: #555;
+  color: white;
+  font-size: 20px;
+  padding: 17px 17px;
+  border-radius: 40px;
+  cursor: pointer;
+  outline:none;
+  border:none;
+
+}
+
+.container .btn3:hover {
+	background-color:white ;
+	cursor: pointer;
+  	transition: 0.7s;
+  	color:black;
+}
+
+.container .btn4 {
+  position: absolute;
+  margin-top: 230px;
+  margin-left: 1130px;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 5px grey;
+  background-color: #555;
+  color: white;
+  font-size: 20px;
+  padding: 17px 17px;
+  border-radius: 40px;
+  cursor: pointer;
+  outline:none;
+  border:none;
+
+}
+
+.container .btn4:hover {
+	background-color:white ;
+	cursor: pointer;
+  	transition: 0.7s;
+  	color:black;
+}
+
+.container .welcome {
+	text-shadow: 2px 2px 8px grey;
+	margin-left: 40px;
+	margin-top: 20px;
+	animation: fadeIn 1s;
+
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.container .hello {
+	box-shadow: 5px 5px 5px grey;
+  background-color: #555;
+  color: white;
+  font-size: 20px;
+  padding: 17px 17px;
+  border-radius: 40px;
+  cursor: pointer;
+  outline:none;
+  border:none;
+  animation: fadeIn 1s;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.container .hello:hover {
+	background-color:white ;
+	cursor: pointer;
+  	transition: 0.7s;
+  	color:black;
+}
+
+.container .ada {
+	text-shadow: 2px 2px 8px grey;
+	margin-left: 40px;
+	margin-top: 20px;
+	animation: fadeIn 1s;
+}
+
+.container .startLearn {
+	box-shadow: 5px 5px 5px grey;
+  background-color: #555;
+  color: white;
+  font-size: 20px;
+  padding: 17px 17px;
+  border-radius: 40px;
+  cursor: pointer;
+  outline:none;
+  border:none;
+  animation: fadeIn 1s;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.container .startLearn:hover {
+	background-color:white ;
+	cursor: pointer;
+  	transition: 0.7s;
+  	color:black;
+}
+
+.container .printing {
+	text-shadow: 2px 2px 8px grey;
+	margin-left: 40px;
+	margin-top: 20px;
+	animation: fadeIn 1s;
+}
+
+.container .next {
+	box-shadow: 5px 5px 5px grey;
+  background-color: #555;
+  color: white;
+  font-size: 20px;
+  padding: 17px 17px;
+  border-radius: 40px;
+  cursor: pointer;
+  outline:none;
+  border:none;
+  animation: fadeIn 1s;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.container .next:hover {
+	background-color:white ;
+	cursor: pointer;
+  	transition: 0.7s;
+  	color:black;
+}
+
